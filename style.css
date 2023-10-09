@@ -1,0 +1,160 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    color: gray;
+}
+
+#hogwarts-logo {
+    width: 300px;
+    height: 120px;
+    cursor: pointer;
+}
+
+#homework-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.homework {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.homework:hover {
+    color: blue;
+}
+
+.success {
+    background-color: #4fbe53;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px 0;
+    max-width: 700px; /* Максимальная ширина */
+    max-height: 100px; /* Максимальная высота */
+    list-style: none;
+}
+.warning {
+    background-color: #fffb09;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+    margin: 5px 0;
+    max-width: 700px; /* Максимальная ширина */
+    max-height: 100px; /* Максимальная высота */
+    list-style: none;
+}
+.html {
+    background-color: #139724;
+    color: white;
+    padding: 5px 10px;
+    
+    border: 3px solid black;
+    max-height: 100px; /* Максимальная высота */
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+.css {
+    background-color: #3b38ff;
+    color: white;
+    padding: 5px 10px;
+    border: 3px solid black;
+    /*border-radius: 5px;*/
+    max-height: 100px; /* Максимальная высота */
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+.js {
+    background-color: #ff7e15;
+    color: white;
+    padding: 5px 10px;
+    border: 3px solid black;
+    
+    max-height: 100px; /* Максимальная высота */
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+.arrow {
+    margin-left: 35px;
+}
+
+.btn-primary {
+    margin-left: 35px;
+}
+
+.count {
+    margin-left: 35px;
+}
+
+#plus-btn{
+    border-radius: 50%;
+    width: 40px; /* Устанавливаем ширину кнопки */
+    height: 40px; /* Устанавливаем высоту кнопки */
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center; /* Центрируем текст в кнопке горизонтально */
+    font-size: 20px; /* Устанавливаем размер шрифта */
+    margin-left: 35px;
+}
+
+#minus-btn{
+    border-radius: 50%;
+    width: 40px; /* Устанавливаем ширину кнопки */
+    height: 40px; /* Устанавливаем высоту кнопки */
+    line-height: 20px;
+    text-align: center; /* Центрируем текст в кнопке горизонтально */
+    font-size: 20px; /* Устанавливаем размер шрифта */
+}
+
+
+
+
+
+
+#collapse-1 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+#collapse-1.open {
+    max-height: 1000px; /* Максимальная высота, чтобы развернуть все содержимое */
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
